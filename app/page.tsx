@@ -1,5 +1,4 @@
 import { Contact } from "@/components/contact";
-import { Flagship } from "@/components/flagship";
 import { Hero } from "@/components/hero";
 import { Impact } from "@/components/impact";
 import { Services } from "@/components/services";
@@ -40,7 +39,6 @@ export default function Home() {
     <div className="min-h-screen bg-white text-gray-900">
       <main>
         <Hero />
-        <Flagship />
         <Impact />
         <WorkGrid />
         <Services />

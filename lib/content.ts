@@ -1,5 +1,4 @@
 export const navLinks = [
-  { label: "Flagship", href: "#flagship" },
   { label: "Impact", href: "#impact" },
   { label: "Work", href: "#work" },
   { label: "What I do", href: "#what-i-do" },
@@ -38,26 +37,6 @@ export const impactStats = [
       "Long-tail SEO content that brought a million search visitors to AirDNA.co.",
   },
 ] as const;
-
-export const flagshipProject = {
-  title: "Deal Radar for Hightouch",
-  href: "https://hightouch-radar.vercel.app/",
-  previewPath: "hightouch-radar.vercel.app/assistant",
-  summary:
-    "A sales assistant I'd build for Hightouch's SDRs and AEs, proposed as a working site.",
-  description: [
-    "Reps ask it what to say next, from the first cold email to the renewal call. It answers from current competitive intel, battlecards, and a library of customer references and case studies, and it cites the source for every line.",
-    "On the deal assistant page, an AE uploads a call transcript and gets the buyer's concerns in their own words, the proof for each one, a matching reference customer, and a follow-up email to send. Weekly competitor tracking feeds it, a script drafts signals with the Claude API, and a person checks every draft. The site ends with how Hightouch could build it internally in 90 days.",
-  ],
-  highlights: [
-    "Turns a call transcript into buyer concerns, proof, and a follow-up email",
-    "Matches reference customers on region, use case, and competitor",
-    "Weekly competitor digest with the exact line to say",
-    "Every answer cites its source, and a person checks every AI draft",
-  ],
-  tags: ["Sales enablement", "Competitive intelligence", "AI tools"],
-  note: "Proposal with sample data. Not affiliated with Hightouch.",
-} as const;
 
 export const workCategories = [
   "All",
